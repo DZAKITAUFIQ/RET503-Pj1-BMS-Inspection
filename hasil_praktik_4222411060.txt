@@ -1,0 +1,17 @@
+==============================================================================
+  PRAKTIK TERPADU MINGGU 4-7 - RET503
+==============================================================================
+  NIM / Nama    : 4222411060 / DZAKI TAUFIQURRAHMAN
+  Waktu         : 25-10-2026 08:24:07
+  Komputer/user : 2a321cf561bc / root
+  Dataset       : dataset_v1  (sidik jari label: 0186E075846E)
+  Pengaturan    : model yolo26n, epochs 30, imgsz 416, batch 16
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.490     0.307  0.534  0.451    4.9     3.9
+  E2_scratch     -                0.061     0.025  0.591  0.067    3.0     3.6
+  E3_tuning      imgsz=640        0.555     0.352  0.719  0.440    6.9     4.6
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.475 | mAP50-95 0.282
+==============================================================================
